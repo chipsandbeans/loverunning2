@@ -214,6 +214,36 @@ Each div will expand to fill the available space on its row */
     color: #3a3a3a;
 }
 
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #fafafa;
+}
+
+#signup {
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 
 @media screen and (min-width: 576px) {
